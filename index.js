@@ -18,4 +18,4 @@ app.use('/api/movies', movieRouter)
 
 app.get('/', (req, res) => res.send('Movie API!'))
 
-app.listen(port, () => console.log(`API is running on Keta: ${port}!`))
+app.listen(port, () => console.log(`API is running on: ${port}!`))
